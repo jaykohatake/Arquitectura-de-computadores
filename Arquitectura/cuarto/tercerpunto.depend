@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1432681041 source:/home/jayko/Escritorio/tercerpunto/main.cpp
+	<time.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<ctime>
+	<sys/timeb.h>
+
+1432789618 source:/home/jayko/Escritorio/Arquitectura/tercerpunto/main.cpp
+	<time.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<ctime>
+	<sys/timeb.h>
+
+1432789618 source:/home/jayko/Escritorio/Arquitectura/codigo fuente c++/tercerpunto/main.cpp
+	<time.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<ctime>
+	<sys/timeb.h>
+

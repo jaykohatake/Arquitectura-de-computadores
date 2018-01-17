@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include<iostream>
+
+
+using namespace std;
+int main(int argc, char *argv[])
+{
+int array[100000];
+int c;
+
+int temp;
+double secs;
+clock_t t_ini, t_fin;
+
+
+for(c = 1; c <= 100000; c++){
+array[c] = 1 + rand() % (101 - 1);
+}
+t_ini = clock();
+
+//burbuja en c++
+   for (int i=1; i < 100001; i++){
+    for (int j=0 ; j<100001 - 1; j++){
+            if (array[j] > array[j+1]){
+                   temp = array[j];
+                 array[j] = array[j+1];
+                 array[j+1] = temp;
+}
+}
+}
+t_fin = clock();
+
+
+
+for(int k = 1; k <= 100000; k++){
+cout << array[k]<< " ";
+}
+cout<< endl;
+secs = (double)(t_fin - t_ini) / CLOCKS_PER_SEC;
+  printf("%.16g milisegundos\n", secs * 1000.0);
+return 0;
+}

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1432789618 source:/home/jayko/Escritorio/Arquitectura/codigo fuente c++/cuartopunto/main.cpp
+	<time.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<ctime>
+	<sys/timeb.h>
+
